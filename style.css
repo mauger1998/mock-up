@@ -7,7 +7,7 @@
 }
 
 .banner {
-    background: linear-gradient(rgba(20, 6, 141, 0.2),#17073d),url(images/background-portfolio.jpeg);
+    background:linear-gradient(rgba(146, 141, 190, 0.2),#1a1a1b),url(images/background-portfolio.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-right:2.5vw;
-    background-color:rgba(5, 1, 30, 0.7);
+    background-color:rgba(2, 1, 9, 0.5);
 }
 
 .nav ul li a {
