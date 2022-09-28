@@ -5,10 +5,17 @@
 }
 
 .nav a {
-    list-style: none;
     text-decoration: none;
 }
 
 .nav {
     border: 1px solid black;
+    height:10vh;
+    
+}
+
+.nav ul {
+    display:flex;
+    list-style: none;
+
 }
