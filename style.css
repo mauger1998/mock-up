@@ -20,5 +20,12 @@
     gap:5vw;
     border:1px solid black;
     height:100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right:2.5vw;
+    background-color:rgb(9, 2, 47);
+}
 
+.nav ul li a {
+    color:white;
 }
