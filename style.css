@@ -8,3 +8,7 @@
     list-style: none;
     text-decoration: none;
 }
+
+.nav {
+    border: 1px solid black;
+}
