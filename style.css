@@ -30,4 +30,6 @@
 
 .nav ul li a {
     color:white;
+    font-weight: 200;
+    font-size: 85%;
 }
