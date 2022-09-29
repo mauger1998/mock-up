@@ -73,6 +73,7 @@
 
 #email {
     font-size:12.5px;
+    transition:0.5s;
 }
 
 .icon-container {
@@ -109,10 +110,21 @@
     
     
 }
+#email:hover {
+    opacity:0.5;
+    cursor:pointer;
+    transition:0.5s;
+    font-size:13.5px;
 
+}
 .icon:hover {
     cursor:pointer;
     opacity: 0.5;
+    transition:0.5s;
+    height:28px;
+}
+.icon {
+    transition:0.5s;
 }
 
 
