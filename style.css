@@ -33,7 +33,7 @@
 }
 
 .nav {
-    min-height:12.5vh;
+    height:12.5vh;
     position: fixed;
     width:100%;
     display:flex;
@@ -94,22 +94,7 @@
 #menu:hover {
     cursor: pointer;
 }
-.ul {
-    position:absolute;
-    top:12.5vh;
-    height:100%;
-    width:100%;
-    background-color:rgba(2, 1, 9, 0.5);
-    list-style-type:none;
-    font-size:50px;
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    gap:60px;
-    display:none;
-    
-    
-}
+
 #email:hover {
     opacity:0.5;
     cursor:pointer;
@@ -133,6 +118,23 @@
     text-decoration: none;
     color:white;
 }
+.ul {
+    position:absolute;
+    top:12.5vh;
+    height:100%;
+    width:100%;
+    background-color:rgba(2, 1, 9, 0.5);
+    list-style-type:none;
+    font-size:50px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:60px;
+    display:none;
+    top:
+    
+    
+}
 
 
 
@@ -148,9 +150,11 @@
     }
     #menu {
         display:block;
+        
     }
     .appear {
         display:flex;
+        position:fixed;
 
     }
     #menu:hover {
