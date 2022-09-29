@@ -92,15 +92,41 @@
 #menu:hover {
     cursor: pointer;
 }
+.ul {
+    position:absolute;
+    top:12.5vh;
+    height:100%;
+    width:100%;
+    background-color:rgba(2, 1, 9, 0.5);
+    list-style-type:none;
+    font-size:50px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:60px;
+    display:none;
+    
+    
+}
+
+
+
+.ul li a {
+    text-decoration: none;
+    color:white;
+}
 
 /* Media Queries */
 
-@media (max-width:500px) {
+@media (max-width:700px) {
     .nav ul li {
         display:none;
     }
     #menu {
         display:block;
+    }
+    .appear {
+        display:flex;
     }
     
 }
