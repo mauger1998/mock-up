@@ -7,6 +7,8 @@
 
 }
 
+
+
 .banner {
     background:linear-gradient(rgba(146, 141, 190, 0.2),#00000a),url(images/background-portfolio.jpeg);
     background-repeat: no-repeat;
@@ -14,8 +16,9 @@
     background-position: center;
     height:100vh;
     color:white;
-    border:1px solid red;
 }
+
+/* Navigation */
 
 .nav a {
     text-decoration: none;
@@ -30,13 +33,12 @@
 }
 
 .nav {
-    height:12.5vh;
+    min-height:12.5vh;
     position: fixed;
     width:100%;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    border:1px solid green;
     background-color:rgba(2, 1, 9, 0.5);
     
     
@@ -49,7 +51,6 @@
     height:100%;
     align-items: center;
     justify-content: flex-end;
-    padding-right:2.5vw;
     
 }
 
@@ -62,13 +63,7 @@
 
 
 
-.second-section {
-    height:100vh;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-image:linear-gradient(rgb(5, 5, 5), rgba(6, 1, 19, 0.55)), url(images/pexels-elti-meshau-333850.jpg);
-    background-position: center;
-}
+
 
 .nav img {
     height:25px;
@@ -85,6 +80,32 @@
     justify-content: center;
     gap:30px;
     padding-top:5px;
+}
+
+/* Media Queries */
+
+@media (max-width:500px) {
+    .nav ul li a {
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Second Section */
+.second-section {
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:linear-gradient(rgb(5, 5, 5), rgba(6, 1, 19, 0.55)), url(images/pexels-elti-meshau-333850.jpg);
+    background-position: center;
 }
 
 
