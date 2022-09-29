@@ -82,12 +82,27 @@
     padding-top:5px;
 }
 
+#menu {
+    display:none;
+    width:50px;
+    height:40px;
+    position:absolute;
+}
+
+#menu:hover {
+    cursor: pointer;
+}
+
 /* Media Queries */
 
 @media (max-width:500px) {
-    .nav ul li a {
+    .nav ul li {
         display:none;
     }
+    #menu {
+        display:block;
+    }
+    
 }
 
 
