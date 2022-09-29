@@ -29,6 +29,8 @@
 
 .nav {
     height:12.5vh;
+    position: fixed;
+    width:100%;
     
     
 }
@@ -50,6 +52,16 @@
     font-size: 85%;
     font-family: 'Noto Sans Mono', monospace;
 }
+
+
+
+.second-section {
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:linear-gradient(rgb(5, 5, 5), rgba(6, 1, 19, 0.55)), url(images/pexels-elti-meshau-333850.jpg);
+}
+
 
 
 
