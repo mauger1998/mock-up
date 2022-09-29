@@ -76,6 +76,17 @@
     
 }
 
+#email {
+    font-size:12.5px;
+}
+
+.icon-container {
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    padding-top:5px;
+}
+
 
 
 
